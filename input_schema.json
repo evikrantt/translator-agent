@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "description": "Text to be translated"
+    },
+    "target_language": {
+      "type": "string",
+      "description": "Target language code (e.g. 'hi' for Hindi, 'fr' for French)"
+    }
+  },
+  "required": ["text", "target_language"]
+}
