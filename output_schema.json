@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "translated_text": {
+      "type": "string",
+      "description": "Translated version of the input text"
+    }
+  },
+  "required": ["translated_text"]
+}
